@@ -1,0 +1,4 @@
+type Query {
+    user: User
+    userLogin(name: String!, password: String!): User
+}

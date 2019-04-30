@@ -1,0 +1,4 @@
+type Mutation {
+    # 登录
+    userRegister ( name: String!, password: String!, phone: String!, type: Int!, email: String!): User
+}

@@ -1,0 +1,14 @@
+# 用户
+type User {
+    # ID
+    id: ID!
+    # 用户名
+    name: String!
+    # 用户类型 1 买家 2 店家 3管理员
+    type: Int!
+    # 用户手机号
+    phone: String!
+    # 用户email
+    email: String!
+}
+
